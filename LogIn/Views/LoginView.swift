@@ -9,7 +9,7 @@ struct LoginView: View {
 
     var body: some View {
         VStack {
-            Image("sticker") // Замените на ваше изображение
+            Image("sticker") 
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 100, height: 100)
